@@ -1,0 +1,27 @@
+* {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  width: 60vw;
+  margin: 64px auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 48px;
+}
+
+img {
+  height: auto;
+  width: 20vw;
+}
+
+li {
+  padding-bottom: 4px;
+}
