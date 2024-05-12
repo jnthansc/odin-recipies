@@ -1,6 +1,11 @@
-* {
+*,
+*::before,
+*::after {
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 18px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,13 +20,24 @@ body {
 h1 {
   font-weight: 300;
   font-size: 48px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  margin: 32px 0 12px;
+}
+
+p {
+  margin-bottom: 8px;
 }
 
 img {
   height: auto;
   width: 20vw;
+  margin-bottom: 24px;
 }
 
 li {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
+  list-style-position: inside;
 }
